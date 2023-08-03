@@ -11,7 +11,7 @@ const app = express();
 //Middleware
 app.use(
     cors({
-    origin: ["http://localhost:3000", "https://task-manager.onrender.com"],
+    origin: ["http://localhost:3000", "https://task-manager-n8rr.onrender.com/"],
   })
 );
 app.use(express.json());
